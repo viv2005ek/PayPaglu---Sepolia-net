@@ -80,7 +80,7 @@ const AppContent: React.FC = () => {
         {!hasMetaMask && (
           <button
             onClick={handleInstallMetaMask}
-            className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white font-medium py-3 px-6 rounded-xl mb-6 shadow-md hover:shadow-lg transition-all hover:scale-[1.02] animate-[fadeIn_0.6s_ease-out_300ms]"
+            className="text-orange-600 border-2 border-orange-600 font-medium text-sm py-2 px-4 rounded-lg hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 hover:text-white hover:border-transparent shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.02] animate-[fadeIn_0.6s_ease-out_300ms] mx-auto block mb-4"
           >
             Install MetaMask
           </button>
