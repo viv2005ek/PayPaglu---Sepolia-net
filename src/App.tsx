@@ -33,6 +33,10 @@ const AppContent: React.FC = () => {
       setShowRegistrationModal(false);
     }
   };
+const handleMorphClick = () => {
+  window.location.href = "https://pay-paglu.vercel.app/";
+};
+
 
   const handleInstallMetaMask = () => {
     window.open('https://metamask.io/download.html', '_blank');
@@ -105,6 +109,15 @@ const AppContent: React.FC = () => {
             </div>
           ))}
         </div>
+      <div className="pt-4 text-sm text-center text-gray-700">
+  Want to use on Morph Holesky?{' '}
+  <button
+    onClick={handleMorphClick}
+    className="text-blue-600 underline hover:text-blue-800 transition-colors"
+  >
+    Click here
+  </button>
+</div>
       </div>
     </div>
   </div>
