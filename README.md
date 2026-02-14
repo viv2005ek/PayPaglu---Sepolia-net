@@ -268,9 +268,3 @@ MIT License
 👤 Author
 
 Developed as a Web3 remittance solution prototype for Sepolia testnet experimentation.
-
-
-If you want, I can now:
-- Rewrite this as a **strong GitHub portfolio-grade README**
-- Or turn it into a **hackathon submission README**
-- Or aggressively optimize it for recruiter impact**
